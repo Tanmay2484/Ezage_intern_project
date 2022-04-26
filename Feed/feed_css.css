@@ -1,0 +1,330 @@
+body {
+    background: #08131f;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.card {
+    width: 375px;
+    height:200vh;
+    background:white;
+    border-radius: 30px;
+    margin-top: 1px;
+}
+.header{
+    background-color: aquamarine;
+    height: 50px;
+    width: 374px;
+   
+    position: relative;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+}
+#logo{
+    height: 45px;
+    width: 120px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+    border-top-left-radius: 5px;
+    
+}
+#bell{
+    color: rgb(1, 77, 52);
+    position: absolute;
+    right: 70px;
+    top: 18px;
+    
+}
+#profile_pic{
+  color: black;
+  position: absolute;
+  right: 40px;
+  top: 18px;
+  
+}
+.buttons{
+    height: 40px;
+    width: 374px;
+    position: absolute;
+    top: 420px;
+    background-color: black;
+  
+}
+#feed{
+    float: left;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 2px;
+    top: 5px;
+    background-color: rgba(4, 110, 75, 0.604);
+}
+#marketplace{
+    float: left;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 7px;
+    top: 5px;
+    background-color: rgba(4, 110, 75, 0.604);
+}
+#community{
+    float: left;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 13px;
+    top: 5px;
+    background-color: rgba(4, 110, 75, 0.604);
+}
+#ezers{
+    float: left;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 18px;
+    top: 5px;
+    background-color: rgba(4, 110, 75, 0.604);
+}
+#order{
+    float: right;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: 3px;
+    top: 5px;
+    background-color: rgba(4, 110, 75, 0.604);
+}
+.communities{
+    background-color:rgb(23, 178, 124);
+    height: 200px;
+    position: relative;
+    top: 700px;
+}
+#shortcuts{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#community_text{
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#img1{
+    height: 70px;
+    width: 70px;
+    float: left;
+    border-radius: 200px;
+    position: relative;
+    left: 5px;
+
+}
+#img2{
+    height: 70px;
+    width: 70px;
+    float: left;
+    border-radius:300px;
+    position: relative;
+    left: 8px;
+}
+#img3{
+    height: 70px;
+    width: 70px;
+    float: left;
+    border-radius:300px;
+    position: relative;
+    left: 13px;
+}
+#img4{
+    height: 70px;
+    width: 70px;
+    float: left;
+    border-radius:300px;
+    position: relative;
+    left:18px;
+}
+#img5{
+    height: 70px;
+    width: 70px;
+    float: right;
+    border-radius:300px;
+    position: relative;
+    right: 3px;
+    bottom: 4px;
+}
+#edits{
+    float: right;
+    border: none;
+    position: relative;
+    right: 20px;
+    bottom: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(20, 51, 20);
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.123);
+}
+.text{
+    height: 60px;
+    width: 375px;
+    background-color: rgba(129, 124, 124, 0.193);
+    position: absolute;
+    top: 140px;
+}
+#text1{
+    float: left;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+#text2{
+    float: left;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+#text3{
+    float: left;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+#text4{
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+#text5{
+    float: left;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+.earning{
+    height: 200px;
+    width: 375px;
+   
+    position: absolute;
+    top: 920px;
+}
+.invite{
+    height: 160px;
+    width: 374px;
+    position: absolute;
+    top: 920px;
+
+}
+.invite1{
+    height: 150px;
+    width: 100px;
+    background-color: rgba(0, 255, 255, 0.445);
+    float: left;
+    position: relative;
+    left: 5px;
+    border-radius: 5px;
+}
+.earning1{
+    height: 150px;
+    width: 130px;
+    background-color: rgba(0, 255, 255, 0.445);
+    float: left;
+    position: relative;
+    left: 17px;
+    border-radius: 5px;
+}
+.event{
+    height: 150px;
+    width: 110px;
+    background-color: rgba(0, 255, 255, 0.445);
+    position: relative;
+    float: right;
+    right: 5px;
+    border-radius: 5px;
+}
+#invite2{
+    border-radius: 10px;
+    border: rgb(1, 13, 1);
+    background-color: rgba(4, 98, 4, 0.514);
+    position: relative;
+    bottom: 6px;
+    left: 6px;
+    text-align: center;
+    cursor: pointer;
+    height: 25px;
+    font-weight: 140px;
+    text-align: center;
+    cursor: pointer;
+}
+#earnin2{
+    border-radius: 10px;
+    border: rgb(1, 13, 1);
+    background-color: rgba(4, 98, 4, 0.514);
+    position: relative;
+    bottom: 12px;
+    left: 6px;
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    height: 25px;
+}
+#event1{
+    border-radius: 10px;
+    border: rgb(1, 13, 1);
+    background-color: rgba(4, 98, 4, 0.514);
+    position: relative;
+    top: 72px;
+    left: 6px;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+#invite_text{
+    font-size: 11px;
+    padding: 8px;
+    font-weight: 600;
+    
+
+}
+#watsapp_logo{
+    position: relative;
+    bottom: 15px;
+    left: 40px;
+    font-size: 30px;
+    color: rgb(13, 243, 13);
+    border-radius: 100px;
+    
+}
+#earning_text{
+    font-size: 11px;
+    font-weight: 700;
+    padding: 20px;
+}
+#money_hand{
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+}
+#channel_text{
+    font-size: 15px;
+    padding: 8px;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
